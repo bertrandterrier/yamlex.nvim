@@ -2,11 +2,19 @@
 Neovim module for creating interconnected "Lexika", where certain fields referring 
 fields in other Lexika, where each Lexika is a Yaml file.
 
+- [Requirements](#requirements)
+- [Install](#install)
+- [Setup](#setup)
 - [License](#license)
 - [Contact](#contact)
 
 
+## Requirements
+1. Neovim (version 0.11)
+2. [yaml.nvim](https://github.com/cuducos/yaml.nvim)
+
 ## Setup
+
 ### Defaults
 ```lua
 ---@type _YlexDefOpts

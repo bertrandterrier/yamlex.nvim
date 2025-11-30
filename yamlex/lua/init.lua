@@ -1,6 +1,8 @@
 local M = {}
 
-local setup require("yamlex.config")
+local setup require("yamlex.lua.setup")
+M.fn = require("yamlex.lua.functions")
+M.cache = require("yamlex.lua.cache")
 
 ---@function External setup function for YamLex options
 ---@param opts? YlexOpts Compare the readme.
